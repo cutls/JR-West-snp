@@ -10,5 +10,6 @@ Japanese
 
 ## Usage
 1. Clone this repository to your server.
-1. Fill Twitter appplication datas on login.php / post.php / tweet.php
+1. Fill Twitter appplication datas on login.php / post.php / tweet.php .
+1. Fill your absolute path on create.php .
 1. Access /[Your Dir]/index.php
