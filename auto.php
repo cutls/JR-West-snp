@@ -1,7 +1,7 @@
 <?php
 $str=$_GET[q];
 if($_GET[h]!="none"){
-$xml=simplexml_load_file("https://jlp.yahooapis.jp/FuriganaService/V1/furigana?appid=dj00aiZpPWZMbUs1eTBwb3FITiZzPWNvbnN1bWVyc2VjcmV0Jng9YWQ-&grade=1&sentence=".$str);
+$xml=simplexml_load_file("https://jlp.yahooapis.jp/FuriganaService/V1/furigana?appid=<appId>&grade=1&sentence=".$str);
 $xml=$xml->Result;
 $xml=$xml->WordList;
 $xml=$xml->Word;
